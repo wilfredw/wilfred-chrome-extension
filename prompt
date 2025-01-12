@@ -1,0 +1,13 @@
+请帮我开发一个chrome扩展，要求是：这个chrome扩展包含功能菜单和子页面，点击功能菜单可以切换到该功能菜单的子页面，功能菜单包含一个 unescapeString的功能和formatJson功能，点击unescapeString功能菜单，展示unescapeString的子页面。在unescapeString子页面中，有一个很大的文本输入框，还有一个unescape按钮，还有一个文本的展示框，用户将string输入文本填进文本输入框中，点击unescape按钮，页面会在文本展示框中展示string unescape后的结果。 点击formatJson功能菜单，展示formatJson的子页面。在formatJson子页面中，有一个很大的文本输入框，还有一个formatJson按钮，还有一个文本的展示框，用户将string输入文本填进文本输入框中，点击formatJson按钮，页面会在文本展示框中展示string 被json协议格式化后的结果。
+
+调整这个扩展的样式，让这个扩展更大一点
+
+在unescapeString子页面和formatJson的子页面中，添加一个copy按钮，可以将文本展示框中的内容拷贝到剪切板
+
+在unescapeString子页面和formatJson的子页面中，将copy按钮放在文本展示框的上方
+
+
+在unescapeString子页面和formatJson的子页面中，用户点击copy按钮后，复制成功不弹出提示框 Copied to clipboard!，而是改成在copy按钮下面展示复制成功的消息，并且复制成功的消息由Copied to clipboard! 加上当前时间组成
+
+
+
