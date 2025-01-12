@@ -1,9 +1,39 @@
-<html>
-    <head>
-        <title> Hello world </title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <h1 id="message"> 你好 </h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Tools</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu">
+        <button id="menu-unescape" class="active">Unescape String</button>
+        <button id="menu-format-json">Format JSON</button>
+    </div>
+
+    <div id="content">
+        <!-- Unescape String Page -->
+        <div id="unescapePage" class="page">
+            <h2>Unescape String Tool</h2>
+            <textarea id="inputUnescape" placeholder="Enter string to unescape..."></textarea>
+            <button id="unescapeButton">Unescape</button>
+            <button class="copyButton" id="copyUnescape">Copy</button>
+            <div id="copyUnescapeMessage" class="copyMessage"></div>
+            <div class="output" id="outputUnescape"></div>
+        </div>
+
+        <!-- Format JSON Page -->
+        <div id="formatJsonPage" class="page hidden">
+            <h2>Format JSON Tool</h2>
+            <textarea id="inputJson" placeholder="Enter JSON string..."></textarea>
+            <button id="formatJsonButton">Format JSON</button>
+            <button class="copyButton" id="copyJson">Copy</button>
+            <div id="copyJsonMessage" class="copyMessage"></div>
+            <div class="output" id="outputJson"></div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
 </html>
